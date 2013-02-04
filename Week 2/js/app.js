@@ -1,3 +1,3 @@
 function BrowserCheck() {
-alert(navigator.appName);
+alert(navigator.appVersion);
 }
