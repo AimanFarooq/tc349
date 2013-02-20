@@ -3,6 +3,10 @@ body {
 	color: #FFF;
 }
 
+h3 {
+	font-size: small;
+}
+
 .bigRed {
 	font-weight:bold;
 	color: #F00;
@@ -20,6 +24,24 @@ table td {
 }
 #cards {
 	position: static;
+}
+
+#cards-column {
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	-moz-column-gap:10px; /* Firefox */
+	-webkit-column-gap:10px; /* Safari and Chrome */
+	column-gap:10px;
+	width: 400px;
+	height: 500px;
+	margin-left: 5px;
+	padding-left: 0px;
+}
+
+#cards-column li {
+	border: 1px solid #fff;
+	padding: 1px;
 }
 
 #rawData  {
@@ -41,6 +63,17 @@ table td {
 	padding: 0px 5px 5px 5px;
 }
 
+#mySort {
+	position: absolute;
+	left: 1135px;
+	top: 65px;
+}
+
 #writing h2 , p {
 	margin: 15px 15px 15px 0px;
+}
+
+.largeImage {
+	width: 400px;
+	height: auto;
 }
