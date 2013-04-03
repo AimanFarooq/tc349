@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>index</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="touch-icons/apple-touch-icon-57x57.png">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link rel="stylesheet" href="ratchet.css">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+    <!-- Intro paragraph styles. Delete once you start using this page -->
+    <style type="text/css">
+        .welcome {
+          line-height: 1.5;
+          color: #555;
+        }
+    </style>
+
+  </head>
+  <body>
+		<div class="content"
+  <!-- Make sure all your bars are the first things in your <body> -->
+  <header class="bar-title">
+	<h1 class="title">My Awesome Mobile Site</h1>
+  </header>
+  <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+  <div class="content">
+    <div class="content-padded">
+	<h3>Login</h3>
+	<form>
+	  <div class="input-group">
+		<input type="email" placeholder="Email">
+		<input type="password" placeholder="Password">
+	  </div>
+	</form>
+	<h2>My Content</h2>
+		<ul class="segmented-controller">
+		  <li class="active">
+			<a href= "#item1" >1</a>
+		  </li>
+		  <li>
+			<a href= "#item2" >2</a>
+		  </li>
+		  <li>
+			<a href= "#item3" >3</a>
+		  </li>
+		</ul>
+      <p class="welcome">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+	  
+		<ul class="list">
+		  <li class="list-divider">CAS 112</li>
+		  <li>Bob</li>
+		  <li>Albers</li>
+		  <li>@BobAlbers</li>
+		  <li class="list-divider">CAS 110</li>
+		  <li>Karl</li>
+		  <li>Gude</li>
+		  <li>@KarlGude</li>
+		  <li class="list-divider">CAS 111</li>
+		  <li>Henry</li>
+		  <li>Brimmer</li>
+		  <li>@HenryBrimmer</li>
+		</ul>
+    </div>
+
+    <ul class="list inset">
+      <li>
+        <a href="#">
+          <strong>Link1</strong>
+          <span class="chevron"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <strong>Link2</strong>
+          <span class="chevron"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <strong>Link3</strong>
+          <span class="chevron"></span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+  </body>
+</html>
