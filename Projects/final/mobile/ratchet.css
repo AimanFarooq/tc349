@@ -1254,6 +1254,10 @@ select {
   -webkit-transform: translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0);
 }
+
+footer {
+	font: center;
+}
 .content.slide.right {
   -webkit-transform: translate3d(100%, 0, 0);
           transform: translate3d(100%, 0, 0);
