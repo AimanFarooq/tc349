@@ -1,6 +1,6 @@
 body {
 	margin-top: 200px;
-	background: url("../img/bodyBG.jpg") no-repeat center top #000;
+	background: url("../img/bg.png") center top #000;
 	color: #000;
 	font-family: "Helvetica", sans-serif;
 }
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
 	margin: 0px;
-	color: #aaa;
+	color: #333;
 }
 
 .imagefl {
@@ -50,9 +50,9 @@ aside {
 	float: right;
 	width: 94px;
 	padding: 0px 5px;
-	border: 3px solid #EE0000;
+	border: 2px solid #EE0000;
 	margin-right: 10px;
-	background: #eee;
+	background: #fff;
 }
 
 aside ul {
@@ -82,15 +82,20 @@ a:active {
 	color:#aaa;
 }
 
-
+#banner {
+	position: absolute;
+	top:0px;
+	left: 290px;
+}
 
 #nav {
 	list-style:none;
 	background-color: #000;
 	width: auto;
 	padding: 5px;
-	border: solid 3px #EE0000;
+	border: solid 2px #EE0000;
 	text-align:center;
+	font-size: 30px;
 }
 
 #nav li {
@@ -119,14 +124,30 @@ a:active {
 
 article {
 	width:220px;
-	height: 200px;
+	height: 250px;
 	float: left;
 	margin: 10px;
 	padding: 5px;
 	background: #aaa;
+	box-shadow: 1px 2px 2px 2px #555;
 }
 
 .extraWide {
 	width: 470px;
 	height: 150px;
+}
+
+.disclaimer {
+
+}
+
+.disclaimerArticle {
+	background: #fff;
+	width: 450px;
+	font: center;
+	box-shadow: 0px 0px 0px 0px;
+}
+
+.compact {
+	font-size: 10px;
 }
